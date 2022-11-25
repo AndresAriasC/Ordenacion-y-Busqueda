@@ -1,0 +1,48 @@
+package Tarea;
+
+import java.util.Scanner;
+
+public class ActasDeNotas {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		DatosGenerales dt[] = new DatosGenerales[1];
+		
+	 String curso = "";
+	 String pLectivo = "";
+	 String carrera = "";
+	 String modalidad = "";
+	 String codigo = "";
+	 String grupo = "";
+	 String cAsignatura = "";
+	 String cPrograma = "";
+	 int cEstudiantes = 0;
+		
+		
+		for (int i = 0; i < dt.length; i++) {
+			System.out.print("Nombre del Curso: ");
+			curso = entrada.nextLine();
+			System.out.print("Nombre del Curso: ");
+			pLectivo = entrada.nextLine();
+			System.out.println("Nombre del Curso: ");
+			carrera = entrada.nextLine();
+			System.out.println("Nombre del Curso: ");
+			modalidad = entrada.nextLine();
+			System.out.println("Nombre del Curso: ");
+			codigo = entrada.nextLine();
+			System.out.println("Nombre del Curso: ");
+			grupo = entrada.nextLine();
+			System.out.println("Nombre del Curso: ");
+			cAsignatura = entrada.nextLine();
+			System.out.println("Nombre del Curso: ");
+			cPrograma = entrada.nextLine();
+			System.out.println("Nombre del Curso: ");
+			cEstudiantes = entrada.nextInt();
+		}
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package Tarea;
+
+public class DatosGenerales {
+
+	private String curso;
+	private String pLectivo;
+	private String carrera;
+	private String modalidad;
+	private String codigo;
+	private String grupo;
+	private String cAsignatura;
+	private String cPrograma;
+	private int cEstudiantes;
+	
+	public DatosGenerales() {
+		
+		curso = "";
+		pLectivo = "";
+		carrera = "";
+		modalidad = "";
+		codigo = "";
+		grupo = "";
+		cAsignatura = "";
+		cPrograma = "";
+		cEstudiantes = 0;
+	}
+	
+	
+	
+}
