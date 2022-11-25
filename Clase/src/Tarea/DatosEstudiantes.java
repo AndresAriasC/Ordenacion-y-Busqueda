@@ -11,7 +11,7 @@ public class DatosEstudiantes {
 	private double sistematicos;
 	
 	public DatosEstudiantes(){
-		
+		/weunas
 		carnet = "";
 		apellidos = "";
 		nombres = "";
